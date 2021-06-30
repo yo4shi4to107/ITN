@@ -19,3 +19,17 @@ footer {
 .footerFont {
   color: #eee;
 }
+@media (max-width:600px) {
+  .head h1 {
+    font-size: 50px;
+  }
+  .head h2 {
+    font-size: 40px;
+  }
+  div p {
+    font-size: 30px;
+  }
+  .footerFont {
+    font-size: 23px;
+  }
+}
